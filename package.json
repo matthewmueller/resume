@@ -1,0 +1,9 @@
+{
+  "name": "resume",
+  "private": "true",
+  "version": "0.0.1",
+  "description": "personal resume",
+  "dependencies": {
+    "marked": "~0.2.7"
+  }
+}
