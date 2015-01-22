@@ -1,13 +1,13 @@
-!!!
+doctype html
 html
   head
    title Resume
-   link(href="resume.css", rel='stylesheet')
+   link(href="/resume.css", rel='stylesheet')
   body
     .resume
       .bio
         h1 Matthew Mueller
-        p mattmuelle@gmail.com &bull; (323) 638-9003
+        p matt@lapwinglabs.com &bull; (415) 535-8313
 
       h2 Education
       ul.education
@@ -19,18 +19,45 @@ html
             li Double Major: Computer Science and Finance, Investment & Banking
             li Cumulative GPA: 3.4/4.0
 
-        li
-          h3 Macquarie University
-          .date 02/10 &ndash; 06/10
-          .location Sydney, Australia
-          ul.bullets
-            li Studied abroad for one semester in Sydney, Australia
-
       h2 Work Experience
       ul.experience
         li
+          h3 Lapwing Labs
+          .date  8/14 &ndash; present
+          .title Founder
+          .location San Francisco, CA
+          .website lapwinglabs.com
+
+          ul.bullets
+            li Used to showcase various projects and write about lessons learned.
+            li Designed the site using Sketch and implemented it using Node.js, Koa, and Duo.
+
+        li
+          h3 Automattic
+          .date 10/13 &ndash; 8/14
+          .title Software Engineer
+          .location San Francisco, CA
+          .website automattic.com
+
+          ul.bullets
+            li Joined Automattic as part of the Cloudup acquisition
+            li Core Javascript engineer on Automattic's new editor
+            li Revamped the frontend deployment using Browserify and Gulp
+
+        li
+          h3 Cloudup
+          .date 4/13 &ndash; 10/13
+          .title Mobile Engineer
+          .location San Francisco, CA
+          .website cloudup.com
+
+          ul.bullets
+            li Developed the entire mobile web experience using Javascript, HTML5 and CSS3
+            li Optimized the UX and pagespeed across iphone and android phones and tablets.
+
+        li
           h3 Wordsmith
-          .date 12/11 &ndash; Present
+          .date 12/11 &ndash; 12/12
           .title Creator
           .location San Francisco, CA
           .website wordsmith.io
@@ -54,30 +81,6 @@ html
             li Helped and mentored other engineers get up to speed with emerging technologies including Node.js, Git, and Github
 
         li
-          h3 Yahoo! Australia
-          .date 03/10 &ndash; 06/10
-          .title Lifestyle Team Intern
-          .location Sydney, Australia
-          .website yahoo.com.au
-
-          ul.bullets
-            li Collected, managed and pitched content for the Yahoo Lifestyle homepage
-            li Designed and implemented cross-browser galleries, newsletters, and recipes using HTML, CSS and Photoshop
-            li Contributed to Yahoo Australia's large-scale winter marketing campaign
-
-        li
-          h3 Lucid Tabs
-          .date 01/09 &ndash; 05/10
-          .title Creator
-          .location Madison, WI
-          .website lucidtabs.com
-
-          ul.bullets
-            li Conceptualized and created Lucid Tabs from low-level SQL to the pixel-perfect Photoshop graphics
-            li Designed and open-sourced a custom template-engine that encourages good MVC application architecture
-            li Built a robust and scalable drag and drop system with object-oriented JavaScript
-
-        li
           h3 Software Training for Students
           .date 02/08 &ndash; 01/10
           .title Software Trainer & Web Administer
@@ -92,7 +95,7 @@ html
       h2 Open Source
       ul.open-source
         :markdown
-          **Strong open source advocate:** Author of over 60 open source projects at *github.com/matthewmueller*. Contributor to over 20 open source projects.
+          **Strong open source advocate:** Author of over 260 open source projects at *github.com/matthewmueller*. Contributor to over 20 open source projects.
           Projects implemented using a variety of programming languages including Node.js, Javascript, CSS, PHP, C++, and Bash.
 
       h2 Skills
