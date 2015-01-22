@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "description": "personal resume",
   "dependencies": {
-    "marked": "~0.2.7"
+    "marked": "~0.2.7",
+    "serve": "^1.4.0"
   }
 }

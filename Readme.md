@@ -6,4 +6,5 @@ My personal resume
 
 The easiest way to view and develop is by install `visionmedia/serve`.
 
-    serve . &
+    npm install
+    ./node_modules/.bin/serve . &
